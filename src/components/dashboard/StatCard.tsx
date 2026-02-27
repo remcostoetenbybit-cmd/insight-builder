@@ -1,4 +1,3 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { Eye, Users, MousePointerClick } from "lucide-react";
 
 interface StatCardProps {
@@ -23,16 +22,14 @@ export function StatCard({ label, value, icon }: StatCardProps) {
   const Icon = icons[icon];
 
   return (
-    <Card className="animate-fade-in">
-      <CardContent className="flex items-center gap-4 p-6">
-        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/10">
-          <Icon className="h-6 w-6 text-primary" />
-        </div>
-        <div>
-          <p className="text-sm font-medium text-muted-foreground">{label}</p>
-          <p className="text-3xl font-bold tracking-tight">{formatNumber(value)}</p>
-        </div>
-      </CardContent>
-    </Card>
+    <div className="flex items-center gap-4 bg-card p-6">
+      <div className="flex h-10 w-10 shrink-0 items-center justify-center bg-accent">
+        <Icon className="h-4 w-4 text-muted-foreground" />
+      </div>
+      <div>
+        <p className="text-xs font-medium uppercase tracking-wider text-muted-foreground">{label}</p>
+        <p className="text-2xl font-bold tracking-tight">{formatNumber(value)}</p>
+      </div>
+    </div>
   );
 }
