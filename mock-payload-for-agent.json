@@ -1,0 +1,70 @@
+{
+  "metrics": {
+    "pageviews": 48239,
+    "visitors": 12847,
+    "sessions": 18432,
+    "timeseries": [
+      { "ts": "2026-02-01T00:00:00Z", "count": 1420 },
+      { "ts": "2026-02-02T00:00:00Z", "count": 1580 },
+      { "ts": "2026-02-03T00:00:00Z", "count": 1350 },
+      { "ts": "2026-02-04T00:00:00Z", "count": 1890 },
+      { "ts": "2026-02-05T00:00:00Z", "count": 2100 },
+      { "ts": "2026-02-06T00:00:00Z", "count": 1950 },
+      { "ts": "2026-02-07T00:00:00Z", "count": 1670 },
+      { "ts": "2026-02-08T00:00:00Z", "count": 1520 },
+      { "ts": "2026-02-09T00:00:00Z", "count": 1480 },
+      { "ts": "2026-02-10T00:00:00Z", "count": 1750 },
+      { "ts": "2026-02-11T00:00:00Z", "count": 2050 },
+      { "ts": "2026-02-12T00:00:00Z", "count": 2230 },
+      { "ts": "2026-02-13T00:00:00Z", "count": 1980 },
+      { "ts": "2026-02-14T00:00:00Z", "count": 2340 },
+      { "ts": "2026-02-15T00:00:00Z", "count": 1870 },
+      { "ts": "2026-02-16T00:00:00Z", "count": 1600 },
+      { "ts": "2026-02-17T00:00:00Z", "count": 1430 },
+      { "ts": "2026-02-18T00:00:00Z", "count": 1710 },
+      { "ts": "2026-02-19T00:00:00Z", "count": 1920 },
+      { "ts": "2026-02-20T00:00:00Z", "count": 2080 },
+      { "ts": "2026-02-21T00:00:00Z", "count": 1840 },
+      { "ts": "2026-02-22T00:00:00Z", "count": 1560 },
+      { "ts": "2026-02-23T00:00:00Z", "count": 1390 },
+      { "ts": "2026-02-24T00:00:00Z", "count": 1650 },
+      { "ts": "2026-02-25T00:00:00Z", "count": 1780 },
+      { "ts": "2026-02-26T00:00:00Z", "count": 1920 },
+      { "ts": "2026-02-27T00:00:00Z", "count": 1680 }
+    ],
+    "topPages": [
+      { "path": "/", "views": 12450 },
+      { "path": "/pricing", "views": 8320 },
+      { "path": "/docs/getting-started", "views": 6180 },
+      { "path": "/blog/launch-week", "views": 4920 },
+      { "path": "/about", "views": 3870 },
+      { "path": "/changelog", "views": 3210 },
+      { "path": "/docs/api-reference", "views": 2890 },
+      { "path": "/contact", "views": 2450 },
+      { "path": "/blog/performance-tips", "views": 1980 },
+      { "path": "/careers", "views": 1540 }
+    ],
+    "topReferrers": [
+      { "source": "google.com", "visits": 5420 },
+      { "source": "twitter.com", "visits": 2870 },
+      { "source": "github.com", "visits": 2340 },
+      { "source": "reddit.com", "visits": 1560 },
+      { "source": "hackernews", "visits": 1280 },
+      { "source": "linkedin.com", "visits": 980 },
+      { "source": "producthunt.com", "visits": 720 },
+      { "source": "direct", "visits": 3450 }
+    ],
+    "geo": [
+      { "country": "United States", "region": "California", "city": "San Francisco", "visitors": 2340 },
+      { "country": "United States", "region": "New York", "city": "New York", "visitors": 1870 },
+      { "country": "United Kingdom", "region": "England", "city": "London", "visitors": 1450 },
+      { "country": "Germany", "region": "Berlin", "city": "Berlin", "visitors": 1120 },
+      { "country": "Canada", "region": "Ontario", "city": "Toronto", "visitors": 980 },
+      { "country": "France", "region": "Île-de-France", "city": "Paris", "visitors": 870 },
+      { "country": "India", "region": "Karnataka", "city": "Bangalore", "visitors": 760 },
+      { "country": "Australia", "region": "New South Wales", "city": "Sydney", "visitors": 650 },
+      { "country": "Japan", "region": "Tokyo", "city": "Tokyo", "visitors": 540 },
+      { "country": "Brazil", "region": "São Paulo", "city": "São Paulo", "visitors": 430 }
+    ]
+  }
+}
