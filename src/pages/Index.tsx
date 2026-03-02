@@ -38,6 +38,9 @@ const Index = () => {
             <DomainSwitcher />
           </div>
           <div className="flex items-center gap-4">
+            <a href="/speed-insights" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Speed Insights
+            </a>
             <a href="/endpoints" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Endpoints
             </a>
