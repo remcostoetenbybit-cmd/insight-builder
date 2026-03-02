@@ -37,9 +37,14 @@ const Index = () => {
             <div className="h-4 w-px bg-border" />
             <DomainSwitcher />
           </div>
-          <a href="/status" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-            System Status
-          </a>
+          <div className="flex items-center gap-4">
+            <a href="/endpoints" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Endpoints
+            </a>
+            <a href="/status" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Status
+            </a>
+          </div>
         </div>
       </header>
 
